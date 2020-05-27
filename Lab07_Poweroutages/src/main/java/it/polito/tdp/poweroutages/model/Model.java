@@ -12,8 +12,8 @@ public class Model {
 		podao = new PowerOutageDAO();
 	}
 	
-	public List<Nerc> getNercList() {
-		return podao.getNercList();
+	public List<Nerc> getNercList(NercIdMap nercIdMap) {
+		return podao.getNercList(nercIdMap);
 	}
 
 }
